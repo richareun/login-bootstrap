@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@300;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css"/>
+
+    <title>Hello, world!</title>
+  </head>
+  <body class="bg-dark">
+      <section>
+          <div class="row g-0">
+              <div class="col-lg-7 d-none d-lg-block">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                      <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item min-vh-100 active">
+                        <img src="img/gfriend1.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>GFRIEND</h5>
+                          <p>Conformado por 6 integrantes</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item min-vh-100">
+                        <img src="img/gfriend2.jpeg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>GRUPO KPOP</h5>
+                          <p>Debutaron el 15 de enero del 2015</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item min-vh-100">
+                        <img src="img/gfriend3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>SEÚL, COREA DEL SUR</h5>
+                          <p>Eunha, Umji, Sowon, Sinb, Yuju, Yerin</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </a>
+                  </div>
+              </div>
+              <div class="col-lg-5 d-flex flex-column align-items-end min-vh-100">
+                  <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 w-100 mb-auto">
+                      <img src="img/logogo.png" class="img-fluid">
+                  </div>
+                  <div class="px-lg-5 py-lg-4 p-4 w-100 align-self-center">
+                      <h1 class="font-monospace mb-4">BIENVENIDO A GFRIEND</h1>
+                      <form class="mb-5">
+                        <div class="mb-4">
+                          <label for="exampleInputEmail1" class="form-label font-monospace">Correo</label>
+                          <input type="email" class="form-control bg-dark-x border-0" placeholder="Ingresa tu correo" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-4">
+                          <label for="exampleInputPassword1" class="form-label font-monospace">Contraseña</label>
+                          <input type="password" class="form-control bg-dark-x border-0 mb-2" placeholder="Ingresa tu contraseña" id="exampleInputPassword1">
+                          <a href="#" id="emailHelp" class="form-text text-muted text-decoration-none">¿Has olvidado tu contraseña?</a>
+                        </div>
+                    <!--    <div class="mb-3 form-check"> 
+                          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                          <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div> primerlogin.epizy.com-->
+                        <button type="submit" class="btn btn-primary w-100">INICIAR SESIÓN</button>
+                      </form>
+
+                      <p class="font-monospace text-center text-muted">O INICIA SESIÓN CON</p>
+                      <div class="d-flex justify-content-around">
+                        <button type="submit" class="btn btn-outline-light flex-grow-1 m-2">GOOGLE</button>
+                        <button type="submit" class="btn btn-outline-light flex-grow-1 m-lg-2">FACEBOOK</button>
+                      </div>
+                  </div>
+                  <div class="text-center px-lg-5 pt-lg-3 pb-lg-4 p-4 w-100 mt-auto">
+                    <p class="d-inline-block mb-0">¿TODAVÍA NO TIENES UNA CUENTA?</p><a href="#" class="text-light font-monospace text-decoration-none">CREA UNO AHORA</a>
+                </div>
+              </div>
+          </div>
+      </section>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
